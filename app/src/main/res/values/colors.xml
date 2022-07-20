@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="bbc_red">#9d0a0e</color>
+    <color name="red">#E80C0C</color>
+    <color name="green">#46EF20</color>
 </resources>
