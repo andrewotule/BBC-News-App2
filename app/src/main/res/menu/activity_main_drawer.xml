@@ -9,10 +9,12 @@
                 <item
                     android:id="@+id/nav_home"
                     android:icon="@drawable/ic_baseline_home_24"
+                    android:iconTint="@color/red"
                     android:title="@string/menu_home" />
                 <item
                     android:id="@+id/nav_news"
                     android:icon="@drawable/ic_baseline_menu_book_24"
+                    android:iconTint="@color/red"
                     android:title="News" />
             </menu>
         </item>
@@ -22,10 +24,12 @@
         <item
             android:id="@+id/nav_travel"
             android:icon="@drawable/ic_baseline_terrain_24"
+            android:iconTint="@color/red"
             android:title="Travel" />
         <item
             android:id="@+id/nav_culture"
             android:icon="@drawable/ic_baseline_people_24"
+            android:iconTint="@color/red"
             android:title="Culture" />
     </menu>
 </item>
@@ -35,6 +39,7 @@
         <item
             android:id="@+id/nav_worklife"
             android:icon="@drawable/ic_baseline_business_center_24"
+            android:iconTint="@color/red"
             android:title="Worklife" />
     </menu>
 </item>
@@ -43,6 +48,7 @@
                 <item
                     android:id="@+id/nav_reel"
                     android:icon="@drawable/ic_baseline_tv_24"
+                    android:iconTint="@color/red"
                     android:title="Reel" />
             </menu>
         </item>
@@ -52,6 +58,7 @@
         <item
             android:id="@+id/nav_sports"
             android:icon="@drawable/ic_baseline_sports_soccer_24"
+            android:iconTint="@color/red"
             android:title="Sports" />
     </menu>
 </item>
@@ -61,6 +68,7 @@
         <item
             android:id="@+id/nav_weather"
             android:icon="@drawable/ic_baseline_cloud_24"
+            android:iconTint="@color/red"
             android:title="Weather" />
     </menu>
 </item>
