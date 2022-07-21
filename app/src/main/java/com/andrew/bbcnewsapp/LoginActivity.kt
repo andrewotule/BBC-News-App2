@@ -2,12 +2,14 @@ package com.andrew.bbcnewsapp
 
 import android.app.ProgressDialog
 import android.content.Intent
+import android.graphics.drawable.AnimationDrawable
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
+import androidx.constraintlayout.widget.ConstraintLayout
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.ktx.Firebase
@@ -19,6 +21,13 @@ class LoginActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
+
+        //making the background dynamic
+        val constraintLayout: ConstraintLayout = findViewById(R.id.sign_in)
+        val animationDrawable: AnimationDrawable = constraintLayout.background as AnimationDrawable
+        animationDrawable.setEnterFadeDuration(1500)
+        animationDrawable.setExitFadeDuration(1500)
+        animationDrawable.start()
 
         auth = Firebase.auth
 

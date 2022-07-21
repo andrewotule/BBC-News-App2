@@ -11,4 +11,9 @@
     <color name="red">#E80C0C</color>
     <color name="green">#46EF20</color>
     <color name="dark_grey">#504E4E</color>
+    <color name="orange_red">#ff0000</color>
+    <color name="maroon">#660000</color>
+    <color name="hot_orange">#ff0000</color>
+    <color name="dull_orange">#cd3117</color>
+    <color name="dull_pink">#e96d55</color>
 </resources>
